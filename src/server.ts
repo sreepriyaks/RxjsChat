@@ -4,16 +4,13 @@ import { Chat } from './models/chat.model';
 import * as WebSocket from 'ws';
 
 console.log(process.env.PORT);
-const server = expressApp.default.app.listen(
-  process.env.PORT || expressApp.default.app.get('port'),
-  () => {
-    console.log(
-      'App is running at http://localhost:%d in %s mode. Press CTRL+C to stop\n',
-      process.env.PORT || expressApp.default.app.get('port'),
-      expressApp.default.app.get('env')
-    );
-  }
-);
+const server = expressApp.default.app.listen(process.env.PORT, () => {
+  console.log(
+    'App is running at http://localhost:%d in %s mode. Press CTRL+C to stop\n',
+    process.env.PORT || expressApp.default.app.get('port'),
+    expressApp.default.app.get('env')
+  );
+});
 
 const wss = new WebSocket.Server({ server });
 
