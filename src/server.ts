@@ -9,7 +9,7 @@ const server = expressApp.default.app.listen(
   () => {
     console.log(
       'App is running at http://localhost:%d in %s mode. Press CTRL+C to stop\n',
-      expressApp.default.app.get('port'),
+      process.env.PORT || expressApp.default.app.get('port'),
       expressApp.default.app.get('env')
     );
   }
