@@ -1,0 +1,1 @@
+{"version":3,"file":"chat.model.js","sourceRoot":"","sources":["../../src/models/chat.model.ts"],"names":[],"mappings":";;AAEA,MAAa,OAAO;IAClB,YAAoB,IAAU,EAAU,OAAe;QAAnC,SAAI,GAAJ,IAAI,CAAM;QAAU,YAAO,GAAP,OAAO,CAAQ;IAAG,CAAC;CAC5D;AAFD,0BAEC;AAED,MAAa,IAAK,SAAQ,OAAO;IAC/B,YAAY,IAAU,EAAE,OAAe;QACrC,KAAK,CAAC,IAAI,EAAE,OAAO,CAAC,CAAC;IACvB,CAAC;CACF;AAJD,oBAIC"}
