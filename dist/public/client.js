@@ -1,5 +1,6 @@
 const { WebSocketSubject } = rxjs.webSocket;
-const socket$ = new WebSocketSubject('ws://localhost:3000');
+var port = process.env.PORT || 3000;
+const socket$ = new WebSocketSubject(`ws://localhost:${port}`);
 
 var name;
 
