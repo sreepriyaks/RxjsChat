@@ -1,6 +1,6 @@
 const { WebSocketSubject } = rxjs.webSocket;
 //const socket$ = new WebSocketSubject('ws://localhost:3000');
-const socket$ = new WebSocketSubject('ws://smartchatrx.herokuapp.com');
+const socket$ = new WebSocketSubject('wss://smartchatrx.herokuapp.com');
 
 var name;
 
