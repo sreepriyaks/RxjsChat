@@ -1,6 +1,8 @@
 const { WebSocketSubject } = rxjs.webSocket;
-var port = process.env.PORT || 3000;
-const socket$ = new WebSocketSubject(`ws://localhost:${port}`);
+//const socket$ = new WebSocketSubject('ws://localhost:3000');
+const socket$ = new WebSocketSubject(
+  'https://desolate-plains-61295.herokuapp.com'
+);
 
 var name;
 
