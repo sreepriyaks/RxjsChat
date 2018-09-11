@@ -1,0 +1,24 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "start": "nodemon dist/server.js"
+  },
+  "author": "Sreepriya Sreekumar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/socket.io": "^1.4.38",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^6.0.1"
+  }
+}
